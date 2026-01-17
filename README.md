@@ -189,12 +189,11 @@ arduino-hid-security-assessment/
 │   ├── 03_metodologia.md
 │   ├── 04_vectores_ataque.md
 │   ├── 05_analisis_riesgos.md
-│   ├── 06_contramedidas.md
+│   ├── 06_controles_y_mitigaciones.md
 │   └── 07_conclusiones.md
 │
 ├── diagrams/
-├── legal-ethics/
-└── references/
+└── scripts/
 ```
 
 ---
