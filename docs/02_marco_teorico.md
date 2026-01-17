@@ -1,8 +1,4 @@
-# Marco teórico 
-
----
-
-## Marco teórico
+# Marco teórico
 
 ### Seguridad física y ciberseguridad
 
@@ -63,7 +59,7 @@ Esto demuestra que la amenaza no está limitada a herramientas especializadas, s
 
 ---
 
-## Theoretical framework
+# Theoretical framework
 
 ### Physical security and cybersecurity
 
