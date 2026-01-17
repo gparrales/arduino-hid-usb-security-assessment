@@ -202,6 +202,7 @@ arduino-hid-security-assessment/
 ## Autor / Author
 
 **Gabriel Parrales Gutiérrez**
+
 Cybersecurity | Risk Analysis | Security Awareness
 
 ---
