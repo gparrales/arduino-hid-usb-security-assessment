@@ -9,10 +9,6 @@ Este repositorio documenta una **evaluación de riesgos de seguridad** asociada 
 
 El enfoque es **técnico, ético y preventivo**. No se publican scripts ofensivos completos.
 
-### Diagrama — Visión general del proyecto
-
-![Project Overview](diagrams/overview.png)
-
 ---
 
 ## Overview
@@ -21,9 +17,9 @@ This repository documents a **security risk assessment** related to USB devices 
 
 The approach is **technical, ethical, and preventive**. Full offensive scripts are not published.
 
-### Diagram — Project overview
+### Diagrama — Visión general del proyecto / Diagram — Project overview
 
-![Project Overview](diagrams/overview.png)
+![Project Overview]([diagrams/overview.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/Overview.jpg))
 
 ---
 
@@ -84,10 +80,6 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 5. Análisis de resultados y riesgos.
 6. Definición de contramedidas.
 
-### Diagrama — Flujo metodológico
-
-![Methodology Flow](diagrams/methodology-flow.png)
-
 ---
 
 ## Methodology
@@ -99,9 +91,9 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 5. Results and risk analysis.
 6. Countermeasure definition.
 
-### Diagram — Methodology flow
+### Diagrama — Flujo metodológico / Diagram — Methodology flow
 
-![Methodology Flow](diagrams/methodology-flow.png)
+![Methodology Flow]([diagrams/methodology-flow.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/methodology-flow.jpeg))
 
 ---
 
@@ -143,9 +135,9 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 * Recognized as a legitimate keyboard by the OS.
 * **High** potential impact on confidentiality and integrity.
 
-### Diagram — CIA triad impact
+### Diagrama impacto tríada CIA / Diagram — CIA triad impact
 
-![CIA Impact](diagrams/cia-impact.png)
+![CIA Impact]([diagrams/cia-impact.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/cia-impact.jpg))
 
 ---
 
@@ -167,9 +159,9 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 * USB device restriction and monitoring.
 * Controls aligned with ISO/IEC 27002.
 
-### Diagram — Defense layers
+### Diagramas Capas de defensa / Diagram — Defense layers
 
-![Defense Layers](diagrams/defense-layers.png)
+![Defense Layers]([diagrams/defense-layers.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/defense-layers.png))
 
 ---
 
