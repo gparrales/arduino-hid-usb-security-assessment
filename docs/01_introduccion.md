@@ -2,7 +2,7 @@
 
 ---
 
-## 🇪🇸 Introducción
+## Introducción
 
 ### Contexto
 
@@ -45,7 +45,7 @@ Los detalles técnicos, metodología, análisis de riesgos y contramedidas se do
 
 ---
 
-## 🇬🇧 Introduction
+## Introduction
 
 ### Context
 
