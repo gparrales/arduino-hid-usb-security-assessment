@@ -19,7 +19,7 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 
 ### Diagrama — Visión general del proyecto / Diagram — Project overview
 
-![Project Overview]([diagrams/overview.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/Overview.jpg))
+![Project Overview](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/Overview.jpg)
 
 ---
 
@@ -93,7 +93,7 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 
 ### Diagrama — Flujo metodológico / Diagram — Methodology flow
 
-![Methodology Flow]([diagrams/methodology-flow.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/methodology-flow.jpeg))
+![Methodology Flow](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/methodology-flow.jpeg)
 
 ---
 
@@ -137,7 +137,7 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 
 ### Diagrama impacto tríada CIA / Diagram — CIA triad impact
 
-![CIA Impact]([diagrams/cia-impact.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/cia-impact.jpg))
+![CIA Impact](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/cia-impact.jpg)
 
 ---
 
@@ -161,7 +161,7 @@ The approach is **technical, ethical, and preventive**. Full offensive scripts a
 
 ### Diagramas Capas de defensa / Diagram — Defense layers
 
-![Defense Layers]([diagrams/defense-layers.png](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/defense-layers.png))
+![Defense Layers](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/defense-layers.png)
 
 ---
 
