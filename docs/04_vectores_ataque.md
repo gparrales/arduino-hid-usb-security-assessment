@@ -2,9 +2,9 @@
 
 ### Introducción basada en resultados
 
-Se analizan **cuatro tareas **y su asociación con la superficie de ataque correspondiente, ejecutados mediante el uso de un **Arduino Leonardo** configurado como **HID**, detallando **las acciones realizadas**, **la interacción con el sistema**, **el resultado**, **el tiempo de ejecución** y **los requisitos** que permitieron el éxito.
+Se analizan cuatro tareas y su asociación con la superficie de ataque correspondiente, ejecutados mediante el uso de un **Arduino Leonardo** configurado como **HID**, detallando **las acciones realizadas**, **la interacción con el sistema**, **el resultado**, **el tiempo de ejecución** y **los requisitos** que permitieron el éxito.
 
-La **Imagen mostrada a continuación resume los resultados de las acciones ejecutadas .**
+La Imagen mostrada a continuación resume los resultados de las acciones ejecutadas .
 
 ![Resultados](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/Resultados_Vetores_Ataque.png)
 
@@ -16,7 +16,7 @@ La **Imagen mostrada a continuación resume los resultados de las acciones ejecu
 
 **Acciones ejecutadas**
 
-* Conectar físicamente el Arduino al equipo víctima**.**
+* Conectar físicamente el Arduino al equipo víctima.
 
 **Interacción con el sistema**
 
@@ -41,7 +41,7 @@ La **Imagen mostrada a continuación resume los resultados de las acciones ejecu
 **Acciones ejecutadas**
 
 * Deshabilitar antivirus (Windows Defender).
-* **Deshabilitar firewall de Windows**.
+* Deshabilitar firewall de Windows.
 * Extracción de credenciales de las redes WI-Fi almacenadas en el PC.
 * Exfiltración de las credenciales de las redes WI-Fi recopiladas.
 
@@ -52,7 +52,7 @@ La **Imagen mostrada a continuación resume los resultados de las acciones ejecu
 
 **Resultado**
 
-* **Éxito, el equipo víctima, a través de pulsaciones pudo interactuar con el sistema, deshabilitar sistemas de seguridad y enviar información**.
+* **Éxito**, el equipo víctima, a través de pulsaciones pudo interactuar con el sistema, deshabilitar sistemas de seguridad y enviar información.
 * **Tiempo**: total en tareas simultáneas fue de 75 segundos o menos.
 
 **Requisitos de éxito**
@@ -68,7 +68,7 @@ La **Imagen mostrada a continuación resume los resultados de las acciones ejecu
 
 **Acciones ejecutadas**
 
-* **Extraer credenciales de redes Wi‑Fi almacenadas en el PC**.
+* Extraer credenciales de redes Wi‑Fi almacenadas en el PC.
 
 **Interacción con el sistema**
 
@@ -77,7 +77,7 @@ La **Imagen mostrada a continuación resume los resultados de las acciones ejecu
 
 **Resultado**
 
-* **Éxito, a través de la inserción de comandos se pudo extraer los SSID's y los respectivos passwords de las redes Wi-Fi a las que el equipo tuvo acceso.**
+* **Éxito**, a través de la inserción de comandos se pudo extraer los SSID's y los respectivos passwords de las redes Wi-Fi a las que el equipo tuvo acceso.
 * **Tiempo**: 14 segundos.
 
 **Requisitos de éxito**
@@ -91,7 +91,7 @@ La **Imagen mostrada a continuación resume los resultados de las acciones ejecu
 
 **Acciones ejecutadas**
 
-* **Enviar un email con información sobre las redes Wi‑Fi recopiladas**.
+* Enviar un email con información sobre las redes Wi‑Fi recopiladas.
 
 **Interacción con el sistema**
 
