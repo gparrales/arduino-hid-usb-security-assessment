@@ -1,6 +1,6 @@
 # arduino-hid-usb-security-assessment
 
-## Descripción general
+## Descripción general / Overview
 
 Este proyecto analiza el riesgo de seguridad asociado a dispositivos USB que se identifican como Human Interface Devices (HID) —como teclados— utilizando una placa Arduino Leonardo capaz de emular dicho comportamiento, los scripts utilizados se desarrollaron bajo la plataforma Arduino IDE 2.2.1.
 
@@ -11,13 +11,13 @@ Durante las pruebas se evaluó la foma en la cual un dispositivo malicioso puede
 - Evadir controles básicos de seguridad basados en confianza en dispositivos HID
 - El objetivo es demostrar el impacto potencial de estos ataques y proponer contramedidas aplicables en entornos corporativos.
 
-### Visión general del proyecto 
+### Visión general del proyecto / Description
 
 ![Project Overview](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/Overview.jpg)
 
 ---
 
-## Objetivos del proyecto
+## Objetivos del proyecto / Project objectives
 
 - Evaluar el impacto de dispositivos HID maliciosos conectados vía USB.
 - Analizar vectores de ataque básicos ejecutados sin interacción del usuario.
@@ -26,7 +26,7 @@ Durante las pruebas se evaluó la foma en la cual un dispositivo malicioso puede
 
 ---
 
-## Alcance
+## Alcance / Scope
 
 * Entorno de pruebas **controlado**.
 * Sistema operativo Windows 10 con configuraciones comunes.
@@ -35,7 +35,7 @@ Durante las pruebas se evaluó la foma en la cual un dispositivo malicioso puede
 
 ---
 
-## Metodología
+## Metodología / Methodology
 
 1. Análisis teórico del riesgo USB/HID.
 2. Configuración del laboratorio.
@@ -50,7 +50,7 @@ Durante las pruebas se evaluó la foma en la cual un dispositivo malicioso puede
 
 ---
 
-## Vectores de ataque evaluados 
+## Vectores de ataque evaluados / Attack vectors evaluated
 
 * Deshabilitación del antivirus.
 * Deshabilitación del firewall.
@@ -61,7 +61,7 @@ Durante las pruebas se evaluó la foma en la cual un dispositivo malicioso puede
 
 ---
 
-## Resultados observados
+## Resultados observados / Findings
 
 * Ejecución en segundos tras la conexión USB.
 * Sin interacción del usuario.
@@ -78,7 +78,7 @@ Durante las pruebas se evaluó la foma en la cual un dispositivo malicioso puede
 
 ---
 
-## Contramedidas propuestas
+## Contramedidas propuestas / Countermeasures
 
 A partir del análisis, se identifican las siguientes medidas de mitigación:
 
@@ -94,17 +94,18 @@ A partir del análisis, se identifican las siguientes medidas de mitigación:
 
 ---
 
-## Capturas
+## Capturas / Captures
 
 Se muestran algunas capturas del Arduino IDE con la implementación parcial del código utilizado en el presente proyecto:
 
-https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/antivirus-firewall.png
-https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/attack-chain.png
-https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/enviar-email.png
+![Deshabiltar Antivirus](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/antivirus-firewall.png)
+![Diagrama de ataque](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/attack-chain.png)
+![Enviar email con archivo de credenciales](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/enviar-email.png)
+![Archivo XML con credenciales recopiladas](https://github.com/gparrales/arduino-hid-usb-security-assessment/blob/main/diagrams/wifi_xml.png)
 
 ---
 
-## Consideraciones legales y éticas
+## Consideraciones legales y éticas / Legal and ethical considerations
 
 Proyecto desarrollado con fines **educativos y de concientización** en ciberseguridad, respetando la legislación vigente y principios de hacking ético. El uso indebido de estas técnicas puede constituir un delito.
 
